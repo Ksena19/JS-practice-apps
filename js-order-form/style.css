@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	background: #F0B775;
+	padding-top: 100px;
+	padding-bottom: 100px; 
+	height: 100%;
+}
+#myForm {
+	margin: 0 auto;
+	padding: 30px;
+	width: 500px;
+	border-radius: 5px;
+	background: #FFFDC0;
+	position: relative;
+}
+#myForm h1 {
+	margin: 20px auto 10px;
+	text-align: center;
+}
+.icon {
+	position: absolute;
+	top: -10px;
+	left: -20px;
+	width: 120px;
+	height: 100px;
+}
+.icon-1 {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	transform: rotate(10deg);
+	width: 100px;
+	height: 100px;
+}
+
+.menu {
+    width: 80%;
+    margin: 0 auto;
+}
+
+th {
+    height: 50px;
+}
+
+.menu input {
+	width: 40px;
+}
+th:first-child {
+	text-align: left;
+}
+.btn-order {
+	margin: 20px 170px 0;
+	width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 10px;
+	background: #eb5c2f;
+	color: #fff;
+}
+.sum {
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 45px; 
+}

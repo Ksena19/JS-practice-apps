@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Greeting</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="emoji">
+		<img src="img/smile-1.png" id="logo-1">
+	</div>
+	<script type="text/javascript">
+	 
+		window.onload = alert('I\'m your new friend! My name is Carl. What is you? Click me to tell a story about you !');
+ 	        
+		    var target = document.querySelector('.emoji');
+		    target.addEventListener('click', greeting);
+ 	        function greeting(e){
+ 	        	e.preventDefault();
+			var request = prompt('what is your name?', 'enter your first name');
+			if(request) {
+				alert('Welcome ' + request +' !');
+				document.getElementById('logo-1').src = 'img/smile.png';
+			}
+		}
+
+	</script>
+</body>
+</html>
